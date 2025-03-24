@@ -18,36 +18,61 @@
     <div id="container">
       <section id="left-side">
         <div id="logo-banner">
-          <img id="logo-img" src="/assets/images/luigi-icon-logo.png" alt="logo" />
+          <img
+            id="logo-img"
+            src="/assets/images/luigi-icon-logo.png"
+            alt="logo"
+          />
           <h1 id="logo-name">Luigi</h1>
         </div>
       </section>
 
       <section id="right-side">
-        <p>
-          This is a practice website. There is nothing to do here but to see how
-          my practice is coming along. We listen and we do not judge. Unless it
-          is good criticism then that is fine. Anyway have a good day.
-        </p>
-        <p>All hail the fake form website.</p>
+        <div id="paragraphs">
+          <p class="intro">
+            This is a practice website. There is nothing to do here but to see
+            how my practice is coming along. We listen and we do not judge.
+            Unless it is good criticism then that is fine. Anyway have a good
+            day.
+          </p>
+          <p class="intro">All hail the fake form website.</p>
+        </div>
+
         <form action="">
-          <div class="form-line">
-            <label for="fname">First name</label><br />
-            <input type="text" id="fname" name="fname" /><br />
-            <label for="lname">Last name</label><br />
-            <input type="text" id="lname" name="lname" /><br />
-          </div>
-          <div class="form-line">
-            <label for="email">Email</label><br />
-            <input type="text" id="email" name="email" /><br />
-            <label for="pnumber">Phone Number</label><br />
-            <input type="text" id="pnumber" name="pnumber" /><br />
-          </div>
-          <div class="form-line">
-            <label for="password">Password</label><br />
-            <input type="text" id="password" name="password" /><br />
-            <label for="cPassword">ConfirmPassword</label><br />
-            <input type="text" id="cPassword" name="cPassword" /><br />
+          <h2 id="form-title">Lets do this!</h2>
+          <div id="form-structure">
+            <div class="form-row">
+              <div class="form-input">
+                <label for="fname">First name</label><br />
+                <input type="text" id="fname" name="fname" /><br />
+              </div>
+              <div class="form-input">
+                <label for="lname">Last name</label><br />
+                <input type="text" id="lname" name="lname" /><br />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-input">
+                <label for="email">Email</label><br />
+                <input type="text" id="email" name="email" /><br />
+              </div>
+              <div class="form-input">
+                <label for="pnumber">Phone Number</label><br />
+                <input type="text" id="pnumber" name="pnumber" /><br />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-input">
+                <label for="password">Password</label><br />
+                <input type="text" id="password" name="password" /><br />
+              </div>
+              <div class="form-input">
+                <label for="cPassword">ConfirmPassword</label><br />
+                <input type="text" id="cPassword" name="cPassword" /><br />
+              </div>
+            </div>
           </div>
         </form>
       </section>
