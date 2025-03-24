@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+}
+
+#left-side, #right-side {
+    width: 50%;
+    padding: 20px; 
+}
+
+#left-side {
+    background-color: lightblue;
+}
+
+#right-side {
+    background-color: lightcoral;
+}
