@@ -1,18 +1,53 @@
 #container {
-    display: flex;
-    flex-direction: row;
-    height: 100vh; 
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
-#left-side, #right-side {
-    width: 50%;
-    padding: 20px; 
-}
-
-#left-side {
-    background-color: lightblue;
-}
-
+#left-side,
 #right-side {
-    background-color: lightcoral;
+  width: 50%;
+}
+
+/* LEFT SIDE  */
+#left-side {
+  background-image: url("/assets/images/bg-image.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25vh;
+}
+
+#logo-banner {
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+  width: 100%; /* Full width of the parent container */
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13%;
+  overflow: hidden;
+}
+
+#logo-img {
+  height: 100%; /* Make the image height equal to the height of the banner */
+  object-fit: contain; /* Ensures the image keeps its aspect ratio */
+  max-width: 100%;
+}
+
+#logo-name {
+  font-family: "Boldonse", system-ui;
+  font-size: 4vh;
+  color: green;
+  padding: 0;
+}
+
+/* RIGHT SIDE */
+#right-side {
+  background-color: rgb(210, 255, 207);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
